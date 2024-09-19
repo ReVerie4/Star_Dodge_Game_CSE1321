@@ -84,7 +84,7 @@ WIDTH, HEIGHT = 1280, 720
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Star Display')
 
-background = pygame.image.load('images/background.PNG')
+background = pygame.image.load('images/background1.PNG')
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 player = Player(WIDTH // 2, HEIGHT//2, 'images/astronaut.PNG', speed = 500)
